@@ -10,13 +10,22 @@
 /*-------
    DEBUG 
  --------*/ 
- .debug header{
+.debug header{
     background-color: #add8e6;
  }
 .debug .header-top{
     background-color: #daa520;
+    height: 40px;
 }
-
+.debug .header2{
+    background-color: blue;
+    padding: 50px 0;
+}
+.debug .header-bottom{
+    background-color: #ee82ee;
+    width: 900px;
+    height: 400px;
+}
  /*-------
    COMMON 
  --------*/ 
@@ -36,11 +45,8 @@ header{
     display: flex;
     justify-content: space-between;
     border-style: dashed;
-    height: 40px;
     align-items: center;
 }
-
-
  /*-------
    MAIN 
  --------*/ 
