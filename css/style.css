@@ -35,6 +35,9 @@
 .debug .col-small{
     background-color: #ffc0cb;
 }
+.debug .green{
+    background-color: #228b22;
+}
  /*-------
    COMMON 
  --------*/ 
@@ -73,6 +76,11 @@ section:nth-child(2n){
 }
 .col-small{
     width: 40%;
+}
+.green{
+    width: 1200px;
+    height: 900px;
+    margin: auto;
 }
  /*-------
    FOOTER 
