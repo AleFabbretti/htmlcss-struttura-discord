@@ -38,6 +38,15 @@
 .debug .green{
     background-color: #228b22;
 }
+.debug .colonna1{
+    background-color: #f08080;
+}
+.debug .colonna2{
+    background-color: #20b2aa;
+}
+.debug .footer-bottom{
+    background-color: #7fffd4;
+}
  /*-------
    COMMON 
  --------*/ 
@@ -84,3 +93,22 @@ section:nth-child(2n){
  /*-------
    FOOTER 
  --------*/ 
+ footer{
+    background-color: #23272a;
+ }
+ .footer-top{
+    display: flex;
+    padding: 10px 0 30px 0;
+ }
+ .colonna1{
+    height: 500px;
+    width: calc(100% / 3);
+ }
+ .colonna2{
+    height: 500px;
+    width: calc(100% / 6);
+ }
+ .footer-bottom{
+    display: flex;
+    
+ }
