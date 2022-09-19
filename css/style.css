@@ -47,6 +47,12 @@
 .debug .footer-bottom{
     background-color: #7fffd4;
 }
+.debug .logo{
+    background-color: #ffb6c1;
+}
+.debug .bottone{
+    background-color: #ffb6c1;
+}
  /*-------
    COMMON 
  --------*/ 
@@ -109,6 +115,21 @@ section:nth-child(2n){
     width: calc(100% / 6);
  }
  .footer-bottom{
+    margin-top: 30px;
     display: flex;
-    
+    justify-content: space-between;
+ }
+ .logo{
+    width: 70px;
+    height: 35px;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    padding: 7px;
+ }
+ .bottone{
+    width: 70px;
+    height: 35px;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    padding: 7px;
  }
