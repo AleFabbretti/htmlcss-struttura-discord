@@ -23,8 +23,6 @@
 }
 .debug .header-bottom{
     background-color: #ee82ee;
-    width: 900px;
-    height: 400px;
 }
 .debug .row{
     height: 400px;
@@ -47,7 +45,7 @@
 .debug .footer-bottom{
     background-color: #7fffd4;
 }
-.debug .logo{
+.debug .logo-footer{
     background-color: #ffb6c1;
 }
 .debug .bottone{
@@ -74,6 +72,11 @@ header{
     border-style: dashed;
     align-items: center;
 }
+.header-bottom{
+    width: 900px;
+    height: 400px;
+    border-style: dashed;
+}
  /*-------
    MAIN 
  --------*/ 
@@ -88,13 +91,16 @@ section:nth-child(2n){
 }
 .col-big{
     width: 60%;
+    border-style: dashed;
 }
 .col-small{
     width: 40%;
+    border-style: dashed;
 }
 .green{
     width: 1200px;
     height: 900px;
+    border-style: dashed;
 }
  /*-------
    FOOTER 
@@ -109,22 +115,26 @@ section:nth-child(2n){
  .colonna1{
     height: 500px;
     width: calc(100% / 3);
+    border-style: dashed;
  }
  .colonna2{
     height: 500px;
     width: calc(100% / 6);
+    border-style: dashed;
+    border-color: white;
  }
  .footer-bottom{
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
  }
- .logo{
+ .logo-footer{
     width: 70px;
     height: 35px;
     margin: 20px 0 20px 0;
     text-align: center;
     padding: 7px;
+    border-style: dashed;
  }
  .bottone{
     width: 70px;
@@ -132,4 +142,5 @@ section:nth-child(2n){
     margin: 20px 0 20px 0;
     text-align: center;
     padding: 7px;
+    border-style: dashed;
  }
