@@ -15,7 +15,9 @@
  }
 .debug .header-top{
     background-color: #daa520;
-    height: 40px;
+}
+.debug .header-top > *{
+    border: 1px dashed;
 }
 .debug .header2{
     background-color: #00008b;
@@ -23,33 +25,44 @@
 }
 .debug .header-bottom{
     background-color: #ee82ee;
+    border: 1px dashed;
 }
 .debug .row{
     height: 400px;
 }
 .debug .col-big{
     background-color: #1e90ff;
+    border: 1px dashed;
 }
 .debug .col-small{
     background-color: #ffc0cb;
+    border: 1px dashed;
 }
 .debug .green{
     background-color: #228b22;
+    border: 1px dashed;
 }
 .debug .colonna1{
     background-color: #f08080;
+    border: 1px dashed;
 }
 .debug .colonna2{
     background-color: #20b2aa;
+    border: 1px dashed white;
+}
+.debug footer{
+    background-color: #23272a;
 }
 .debug .footer-bottom{
     background-color: #7fffd4;
 }
 .debug .logo-footer{
     background-color: #ffb6c1;
+    border: 1px dashed;
 }
 .debug .bottone{
     background-color: #ffb6c1;
+    border: 1px dashed;
 }
  /*-------
    COMMON 
@@ -68,14 +81,23 @@ header{
 }
 .header-top{
     display: flex;
-    justify-content: space-between;
-    border-style: dashed;
     align-items: center;
+    line-height: 50px;
+}
+.logo , .login{
+    width: 20%;
+    margin: 0;
+}
+.main-nav{
+    width: 60%;
+    text-align: center;
+}
+.login{
+    text-align: right;
 }
 .header-bottom{
     width: 900px;
     height: 400px;
-    border-style: dashed;
 }
  /*-------
    MAIN 
@@ -91,23 +113,17 @@ section:nth-child(2n){
 }
 .col-big{
     width: 60%;
-    border-style: dashed;
 }
 .col-small{
     width: 40%;
-    border-style: dashed;
 }
 .green{
     width: 1200px;
     height: 900px;
-    border-style: dashed;
 }
  /*-------
    FOOTER 
  --------*/ 
- footer{
-    background-color: #23272a;
- }
  .footer-top{
     display: flex;
     padding: 10px 0 30px 0;
@@ -115,13 +131,10 @@ section:nth-child(2n){
  .colonna1{
     height: 500px;
     width: calc(100% / 3);
-    border-style: dashed;
  }
  .colonna2{
     height: 500px;
     width: calc(100% / 6);
-    border-style: dashed;
-    border-color: white;
  }
  .footer-bottom{
     margin-top: 30px;
@@ -134,7 +147,6 @@ section:nth-child(2n){
     margin: 20px 0 20px 0;
     text-align: center;
     padding: 7px;
-    border-style: dashed;
  }
  .bottone{
     width: 70px;
@@ -142,5 +154,4 @@ section:nth-child(2n){
     margin: 20px 0 20px 0;
     text-align: center;
     padding: 7px;
-    border-style: dashed;
  }
